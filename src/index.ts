@@ -7,5 +7,5 @@ import { app } from './app';
 const PORT = parseInt(process.env.PORT) || 3000;
 
 app.listen(PORT, function () {
-  console.log(`Server up and running in ${PORT}!!`);
+  console.log(`Server up and running in ${PORT}!`);
 });
